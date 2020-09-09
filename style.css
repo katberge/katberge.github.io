@@ -6,8 +6,13 @@ nav {
     position: fixed;
 }
 
+#section-links {
+    display: flex;
+}
+
 li {
     list-style: none;
+    padding-right: 20px;
 }
 
 a {
