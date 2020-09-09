@@ -8,6 +8,7 @@
 html {
     font-family: 'Kumbh Sans', sans-serif;
     background-color: #ffffff;
+    color: #000000;
 }
 
 body {
@@ -31,6 +32,7 @@ li {
 
 a {
     text-decoration: none;
+    color: #000000;
 }
 
 #about-section {
