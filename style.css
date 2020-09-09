@@ -50,9 +50,20 @@ a {
 }
 
 #about-section {
+    display: flex;
     padding-top: 10vh;
     text-align: center;
     background-color: var(--blue);
+}
+
+img {
+    width: 250px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+#about-info {
+    padding: 30px;
 }
 
 #project-section {
