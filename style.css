@@ -58,6 +58,7 @@ a {
 
 img {
     width: 250px;
+    height: 250px;
     border: 10px solid var(--peach);
     border-radius: 50%;
     margin: 20px;
