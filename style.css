@@ -58,8 +58,9 @@ a {
 
 img {
     width: 250px;
+    border: 10px solid var(--peach);
     border-radius: 50%;
-    padding: 20px;
+    margin: 20px;
 }
 
 #about-info {
