@@ -82,6 +82,7 @@ li {
 
 #project-section {
     background-color: var(--purple);
+    padding: 5px 0;
 }
 
 .project-pic {
@@ -91,4 +92,5 @@ li {
 
 #contact-section {
     background-color: var(--peach);
+    padding: 5px 0;
 }
