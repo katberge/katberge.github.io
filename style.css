@@ -85,6 +85,10 @@ li {
     padding: 5px 0;
 }
 
+.projects {
+    display: flex;
+}
+
 .project-pic {
     width: 35vw;
     height: 35vw;
