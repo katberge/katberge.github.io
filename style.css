@@ -131,3 +131,28 @@ button i {
     background-color: var(--peach);
     padding: 5px 0;
 }
+
+@media (max-width: 800px) {
+    #about-section {
+        flex-direction: column-reverse;
+    }
+    #about-info {
+        padding: 0 30px;
+    }
+    #portrait {
+        margin: 10px 0 0 0;
+    }
+
+    .projects {
+        flex-direction: column;
+        margin: 50px 0;
+    }
+    .project-pic {
+        width: 40vw;
+        height: 40vw;
+        margin-bottom: 0;
+    }
+    .project-info {
+        width: 85vw;
+    }
+}
