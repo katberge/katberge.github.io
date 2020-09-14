@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -35,7 +36,7 @@
             <div class="project-info">
                 <h2>2048 Dupe</h2>
                 <p>I made this dupe of the game 2048 from what I had learned from my second freeCodeCamp certification and a tutorial on building Tetris with JS. This was my first self-assigned project and helped me learn how to work through coding problems on my own.</p>
-                <button type="button"><a href="https://github.com/katberge/2048-game" target="_blank">View on GitHub<i class="fa fa-github" aria-hidden="true"></i></a></button>
+                <button type="button" onclick="openLink('github.com/katberge/2048-game')">View on GitHub<i class="fa fa-github" aria-hidden="true"></i></button>
             </div>
         </div>
         <div class="projects" id="project2">
@@ -43,7 +44,7 @@
             <div class="project-info">
                 <h2>Snake Dupe</h2>
                 <p>This dupe of the game Snake was another solo project to help expand my knowledge of HTML, CSS, and JS. It had a particular focus on using HTML canvas, and I learned how to implement customizable color themes for the snake and buttons.</p>
-                <button type="button"><a href="https://github.com/katberge/snake-game" target="_blank">View on GitHub<i class="fa fa-github" aria-hidden="true"></i></a></button>
+                <button type="button" onclick="openLink('github.com/katberge/snake-game')">View on GitHub<i class="fa fa-github" aria-hidden="true"></i></button>
             </div>
         </div>
         <div class="projects" id="project3">
@@ -51,12 +52,8 @@
             <div class="project-info">
                 <h2>Pomodoro Clock</h2>
                 <p>The Pomodoro Clock was the last project that I completed in order to recieve freeCodeCamp's Front End Libraries certification. Using React, I created a timer that switched between sessions and breaks, which could be set to customizable lengths in minutes.</p>
-                <button type="button">
-                    <a href="https://github.com/katberge/fcc-pomodoro-clock" target="_blank">View on GitHub<i class="fa fa-github" aria-hidden="true"></i></a>
-                </button>
-                <button type="button">
-                    <a href="https://codepen.io/katberge/full/VwedbJz" target="_blank">View on CodePen<i class="fa fa-codepen"></i></a>
-                </button>
+                <button type="button" onclick="openLink('github.com/katberge/fcc-pomodoro-clock')">View on GitHub<i class="fa fa-github" aria-hidden="true"></i></button>
+                <button type="button" onclick="openLink('codepen.io/katberge/full/VwedbJz')">View on CodePen<i class="fa fa-codepen" aria-hidden="true"></i></button>
             </div>
         </div>
     </section>
