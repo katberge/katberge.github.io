@@ -7,7 +7,7 @@
 
 html {
     font-family: 'Kumbh Sans', sans-serif;
-    background-color: #ffffff;
+    background-color: var(--pink);
     color: #000000;
     text-align: center;
 }
@@ -61,6 +61,11 @@ a {
 
 .icon-link {
     padding: 20px 15px 10px 15px;
+}
+
+.section-link,
+.icon-link {
+    transition: background-color 0.5s ease-out;
 }
 
 .icon-link:hover,
