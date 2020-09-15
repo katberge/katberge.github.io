@@ -34,7 +34,7 @@ nav {
     width: 100vw;
     height: 50px;
     background-color: var(--purple);
-    box-shadow: 0 2px var(--blue);
+    border-bottom: 2px solid var(--blue);
 }
 
 #section-links {
@@ -103,7 +103,7 @@ a {
 
 #project-section {
     background-color: var(--purple);
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 #project-section h2 {
@@ -148,20 +148,24 @@ button:hover {
 
 #contact-section {
     background-color: var(--blue);
-    padding: 5px 0 30px;
+    padding: 10px 0 40px;
 }
 
-#contact-section p {
-    font-size: 24px;
+#contact-section h2 {
+    padding: 20px 0;
 }
 
 .contact-links {
-    font-size: 18px;
+    font-size: 20px;
     margin: 0 10px;
 }
 
+.contact-links:hover {
+    border-bottom: 2px solid #000000;
+}
+
 .icon {
-    margin: 0 5px;
+    margin-right: 5px;
 }
 
 @media (max-width: 800px) {
