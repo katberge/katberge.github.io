@@ -206,3 +206,13 @@ button:hover {
         width: 85vw;
     }
 }
+
+@media (max-width: 500px) {
+    #nav-contact {
+        display: none;
+    }
+    #section-links {
+        width: 100vw;
+        justify-content: space-around;
+    }
+}
