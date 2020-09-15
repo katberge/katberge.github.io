@@ -7,7 +7,6 @@
 
 html {
     font-family: 'Kumbh Sans', sans-serif;
-    background-color: var(--pink);
     color: #000000;
     text-align: center;
 }
@@ -149,7 +148,20 @@ button:hover {
 
 #contact-section {
     background-color: var(--blue);
-    padding: 5px 0;
+    padding: 5px 0 30px;
+}
+
+#contact-section p {
+    font-size: 24px;
+}
+
+.contact-links {
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.icon {
+    margin: 0 5px;
 }
 
 @media (max-width: 800px) {
