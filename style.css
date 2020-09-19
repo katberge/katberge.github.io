@@ -1,8 +1,6 @@
 :root {
-    --pink: #ffcad4;
     --blue: #b0d0d3;
     --purple: #c08497;
-    --peach: #f7af9d;
 }
 
 html {
@@ -162,6 +160,10 @@ button:hover {
 
 .contact-links:hover {
     border-bottom: 2px solid #000000;
+}
+
+.text-link:hover {
+    text-decoration: underline;
 }
 
 .icon {
