@@ -219,6 +219,10 @@ button:hover {
         justify-content: space-around;
     }
 
+    button {
+        margin-bottom: 10px;
+    }
+
     .project-pic {
         width: 65vw;
         height: 65vw;
