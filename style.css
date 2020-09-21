@@ -199,8 +199,8 @@ button:hover {
     }
 
     .project-pic {
-        width: 40vw;
-        height: 40vw;
+        width: 50vw;
+        height: 50vw;
         margin-bottom: 0;
     }
     
@@ -213,8 +213,14 @@ button:hover {
     #nav-contact {
         display: none;
     }
+
     #section-links {
         width: 100vw;
         justify-content: space-around;
+    }
+
+    .project-pic {
+        width: 65vw;
+        height: 65vw;
     }
 }
