@@ -54,10 +54,11 @@ a {
 
 .section-link {
     padding: 18px;
+    padding-bottom: 14px;
 }
 
 .icon-link {
-    padding: 20px 15px 10px 15px;
+    padding: 20px 15px 6.5px 15px;
 }
 
 .section-link,
