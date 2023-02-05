@@ -93,6 +93,7 @@ a {
     border: 10px solid var(--purple);
     border-radius: 50%;
     margin: 20px;
+    object-fit: cover;
 }
 
 #about-info {
