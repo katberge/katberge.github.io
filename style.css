@@ -16,10 +16,12 @@ body {
 
 h1 {
     font-size: 36px;
+    font-family: 'Libre Baskerville', serif;
 }
 
 h2 {
     font-size: 26px;
+    font-family: 'Noto Serif', serif;
 }
 
 p {
@@ -86,6 +88,7 @@ a {
 
 #about-section h2 {
     font-weight: normal;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 #portrait {
