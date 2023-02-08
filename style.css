@@ -1,6 +1,8 @@
 :root {
-    --blue: #b0d0d3;
-    --purple: #c08497;
+    /* --red: #C03E48; */
+    --red: #851c21;
+    --white: #D3D3D3;
+    --black: #373737;
 }
 
 html {
@@ -31,8 +33,7 @@ nav {
     justify-content: space-between;
     width: 100vw;
     height: 50px;
-    background-color: var(--purple);
-    border-bottom: 2px solid var(--blue);
+    background-color: var(--red);
 }
 
 #section-links {
@@ -50,6 +51,7 @@ li {
 a {
     text-decoration: none;
     color: #000000;
+    font-weight: 900;
 }
 
 .section-link {
@@ -64,12 +66,12 @@ a {
 .section-link,
 .icon-link {
     transition: background-color 0.5s ease-out;
+    color: #FFFFFF;
 }
 
 .icon-link:hover,
 .section-link:hover {
-    background-color: #ffb2ba;
-    font-weight: bold;
+    background-color: #651519;
 }
 
 #nav-contact {
@@ -81,7 +83,7 @@ a {
     display: flex;
     align-items: center;
     padding-top: 50px;
-    background-color: var(--blue);
+    background-color: var(--white);
 }
 
 #about-section h2 {
@@ -91,7 +93,7 @@ a {
 #portrait {
     width: 250px;
     height: 250px;
-    border: 10px solid var(--purple);
+    border: 10px solid var(--red);
     border-radius: 50%;
     margin: 20px;
     object-fit: cover;
@@ -102,8 +104,9 @@ a {
 }
 
 #project-section {
-    background-color: var(--purple);
+    background-color: var(--black);
     padding: 10px 0;
+    color: #FFFFFF;
 }
 
 #project-section h2 {
@@ -121,7 +124,7 @@ a {
     height: 30vw;
     border-radius: 5px;
     margin-bottom: 20px;
-    border: 5px solid var(--blue);
+    border: 8px solid var(--red);
 }
 
 .project-info {
@@ -129,13 +132,14 @@ a {
 }
 
 button {
-    background-color: var(--blue);
+    background-color: var(--red);
     font-size: 15px;
     padding: 8px;
     margin: 0 5px;
     border: none;
     border-radius: 5px;
     transition: all 0.3s ease-out;
+    color: #FFFFFF;
 }
 
 button i {
@@ -147,7 +151,7 @@ button:hover {
 }
 
 #contact-section {
-    background-color: var(--blue);
+    background-color: var(--white);
     padding: 10px 0 40px;
 }
 
