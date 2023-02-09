@@ -158,11 +158,11 @@ button:hover {
 
 #contact-section {
     background-color: var(--white);
-    padding: 10px 0 40px;
+    padding: 10px 10px 40px;
 }
 
 #contact-section h2 {
-    padding: 20px 0;
+    padding: 20px;
 }
 
 .contact-links {
