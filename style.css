@@ -15,12 +15,17 @@ body {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 40px;
     font-family: 'Libre Baskerville', serif;
 }
 
 h2 {
-    font-size: 26px;
+    font-size: 36px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h3 {
+    font-size: 30px;
     font-family: 'Noto Serif', serif;
 }
 
@@ -86,11 +91,6 @@ a {
     background-color: var(--white);
 }
 
-#about-section h2 {
-    font-weight: normal;
-    font-family: 'Kumbh Sans', sans-serif;
-}
-
 #portrait {
     width: 250px;
     height: 250px;
@@ -104,13 +104,18 @@ a {
     padding: 30px;
 }
 
+#about-info p {
+    font-size: 20px;
+}
+
+.text-link:hover {
+    text-decoration: underline;
+}
+
 #project-section {
     background-color: var(--black);
     padding: 10px 0;
     color: #FFFFFF;
-}
-
-#project-section h2 {
     margin-top: 0;
 }
 
@@ -161,17 +166,12 @@ button:hover {
 }
 
 .contact-links {
-    display: inline-block;
     font-size: 20px;
-    margin: 8px 10px 0;
+    margin: 10px;
 }
 
 .contact-links:hover {
     border-bottom: 2px solid #000000;
-}
-
-.text-link:hover {
-    text-decoration: underline;
 }
 
 .icon {
@@ -183,27 +183,13 @@ button:hover {
         flex-direction: column-reverse;
     }
 
-    #about-info {
-        padding: 0 30px;
-    }
-
     #portrait {
-        margin: 10px 0 0 0;
-    }
-    
-
-
-    #project-section h1 {
-        margin-bottom: 50px;
-    }
-
-    #project-section h2 {
-        margin-top: 25px;
+        margin: 30px 0 0;
     }
 
     .projects {
         flex-direction: column;
-        margin: 0 0 80px 0;
+        margin-bottom: 80px;
     }
 
     .project-pic {
